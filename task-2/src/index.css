@@ -1,0 +1,18 @@
+.container {
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.table thead th {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table thead input {
+  margin-bottom: 0;
+  height: 34px;
+  font-size: 14px;
+}

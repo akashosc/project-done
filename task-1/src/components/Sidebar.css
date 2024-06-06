@@ -1,0 +1,131 @@
+.sidebar {
+    width: 265px;
+    background-color: #18191a;
+    color: white;
+    height: 100vh;
+    position: fixed;
+  }
+  .sidebar-content {
+    flex-grow: 1;
+    overflow-y: auto; /* Add scroll bar */
+  }
+  
+  .sidebar-header {
+    font-size: 1.8rem;
+    /* background-color: #242526; */
+    text-align: center;
+  }
+  .sidebar-header h1{
+     margin: 10px 5px;
+  }
+  
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-menu li {
+    padding: 8px 10px;
+  }
+  
+  .sidebar-menu li a {
+    padding: 6px 10px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  .active{
+    background-color: #370244;
+  }
+  
+  .sidebar-menu li a:hover {
+    background-color: #3a3b3c;
+  }
+  
+  .sidebar-menu li a svg {
+    margin-right: 10px;
+  }
+  
+  .sidebar-footer {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar-footer a {
+    color: white;
+    text-decoration: none;
+  }
+  .profile-div{
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .profile-content{
+    margin: 0px 10px;
+  }
+  .profile-content h3,h6{
+    text-align: left;
+     margin: 2px;
+  }
+  .profile-content h3{
+    font-size: 1.5rem;
+}
+  .profile-content h6{
+      font-size: 0.8rem;
+     color: #5a5a5d;
+  }
+  .profile{
+    margin-left: 15px;
+    text-align: center;
+    border-radius: 50%;
+    height: 55px ;
+    width: 55px;
+    background-color: blue;
+  }
+  .profile h4{
+     font-size: 1.5rem;
+    font-weight:bolder;
+     margin: 13px 0px;
+  }
+  
+  .sidebar-footer a:hover {
+    text-decoration: underline;
+  }
+
+.upper-head{
+    font-size: 1rem;
+    color: #5a5a5d;
+    font-weight: 100;
+    margin-right: 10px;
+    padding: 0px 5px;
+    text-align: left;
+}
+
+.upper-div{
+    text-align: right;
+    cursor: pointer;
+    margin-left: 13px;
+   display: flex;
+   align-items:center;
+   justify-content: flex-start;
+}
+.rotate-180 {
+    transform: rotate(180deg);
+}
+.message-box{
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 40%;
+    height: 25px;
+    width: 33px;
+    background-color: red;
+}
+.message-box h6{
+    font-size: 1rem;
+  margin: 5px  10px;
+}
+
+  
